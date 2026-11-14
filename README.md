@@ -2,7 +2,7 @@
 
 **A small GPT training playground maintained by Ajinkya Katke**
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsHx-BiT/ashGPT-training/blob/main/notebooks/ashGPT_Colab.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsHx-BiT/ashGPT-training/blob/main/notebooks/ashGPT_tiny_shakespeare_Colab.ipynb)
 
 ![ashGPT project image](assets/ashgpt-project-image.png)
 
@@ -67,9 +67,14 @@ Because the starter model learns character patterns from Shakespeare, its output
 - `sample.py` loads a checkpoint and generates text.
 - `config/` contains training configurations.
 - `data/` contains dataset preparation scripts.
-- `notebooks/ashGPT_Colab.ipynb` provides a Google Colab entry point.
+- `notebooks/ashGPT_tiny_shakespeare_Colab.ipynb` runs the compact pasted Transformer example in Colab.
+- `notebooks/ashGPT_Colab.ipynb` runs the repository's main nanoGPT training workflow in Colab.
 
 To experiment with a different dataset or model size, prepare the data in the format expected by a dataset's `prepare.py` script and adjust the training configuration in `config/`.
+
+## Compact from-scratch Colab notebook
+
+[Open the ashGPT tiny Shakespeare notebook in Google Colab](https://colab.research.google.com/github/AsHx-BiT/ashGPT-training/blob/main/notebooks/ashGPT_tiny_shakespeare_Colab.ipynb). It runs the compact Transformer example in `train_tiny_shakespeare.py`.
 
 ## Troubleshooting
 
@@ -78,4 +83,3 @@ If PyTorch compilation is unavailable on your system, use `--compile=False`. On 
 ## License
 
 See [LICENSE](LICENSE) for the license and required notices.
-
