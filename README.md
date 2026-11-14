@@ -76,6 +76,10 @@ To experiment with a different dataset or model size, prepare the data in the fo
 
 [Open the ashGPT tiny Shakespeare notebook in Google Colab](https://colab.research.google.com/github/AsHx-BiT/ashGPT-training/blob/main/notebooks/ashGPT_tiny_shakespeare_Colab.ipynb). It runs the compact Transformer example in `train_tiny_shakespeare.py`.
 
+## Demo video
+
+[Watch or download the ashGPT training demo](assets/ashGPT-running-demo.mp4). It shows a real 2,000-iteration CPU training run and sample output.
+
 ## Troubleshooting
 
 If PyTorch compilation is unavailable on your system, use `--compile=False`. On Windows without a CUDA-enabled GPU, use `--device=cpu` as shown in the CPU command.
