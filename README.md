@@ -2,7 +2,7 @@
 
 **A small GPT training playground maintained by Ajinkya Katke**
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsHx-BiT/ashGPT-training/blob/main/notebooks/ashGPT_tiny_shakespeare_Colab.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsHx-BiT/ashGPT/blob/main/notebooks/ashGPT_tiny_shakespeare_Colab.ipynb)
 
 ![ashGPT project image](assets/ashgpt-project-image.png)
 
@@ -74,7 +74,7 @@ To experiment with a different dataset or model size, prepare the data in the fo
 
 ## Compact from-scratch Colab notebook
 
-[Open the ashGPT tiny Shakespeare notebook in Google Colab](https://colab.research.google.com/github/AsHx-BiT/ashGPT-training/blob/main/notebooks/ashGPT_tiny_shakespeare_Colab.ipynb). It runs the compact Transformer example in `train_tiny_shakespeare.py`.
+[Open the ashGPT tiny Shakespeare notebook in Google Colab](https://colab.research.google.com/github/AsHx-BiT/ashGPT/blob/main/notebooks/ashGPT_tiny_shakespeare_Colab.ipynb). It runs the compact Transformer example in `train_tiny_shakespeare.py`.
 
 ## Demo video
 
